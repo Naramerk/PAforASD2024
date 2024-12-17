@@ -60,8 +60,10 @@ The following parts of the k-means algorithm are parallelized:
     - Parallel time (4 processes): 43.15 seconds
     - Parallel time (8 processes): 2.55 seconds
     - Speedups: [1.2077684089421359, 0.09956750927130907, 1.6870601610674947]
-      
+
+
 ![image](https://github.com/user-attachments/assets/4e4edfb4-60de-482c-bb8a-e07016672577)
+
 
   - Process count vs speedup relationship visualized
   - Speedup graph saved as speedup.png
