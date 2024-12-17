@@ -67,6 +67,5 @@ The following parts of the k-means algorithm are parallelized:
 
   - Process count vs speedup relationship visualized
   - Speedup graph saved as speedup.png
-
 ![image](https://github.com/user-attachments/assets/344ab990-afa2-416f-b7e0-8e03d35b030a)
 
