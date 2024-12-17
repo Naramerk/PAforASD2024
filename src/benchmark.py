@@ -37,7 +37,7 @@ if __name__ == "__main__":
     X, _ = make_blobs(n_samples=n_samples, n_features=n_features, centers=n_clusters, random_state=42)
     print("Dataset generated successfully")
 
-    os.makedirs('benchmarks', exist_ok=True)
+    os.makedirs('../benchmarks', exist_ok=True)
 
     print("Starting benchmark...")
     seq_time, parallel_times, n_jobs_range = run_benchmark(X, n_clusters)
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     plt.xlabel('Number of Processes')
     plt.ylabel('Speedup')
     plt.grid(True)
-    plt.savefig('benchmarks/speedup.png')
+    plt.savefig('../benchmarks/speedup.png')
     plt.close()
 
     print(f"Sequential time: {seq_time:.2f} seconds")
